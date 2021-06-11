@@ -1,0 +1,7 @@
+@use '../../partials/pageSettings' as *;
+
+.pagebody{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}

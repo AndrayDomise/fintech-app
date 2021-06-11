@@ -1,0 +1,28 @@
+.investingPage{
+    display:flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 375px;
+        height: 812px;
+        background-image: url(../../assets/Images/Investment.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: none;
+        margin: 0 auto;
+}
+
+.buyLink{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EE6C4D;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    width: 134px;
+    height: 170px;
+    margin: 333px 211px 309px 30px;
+    border-radius: 8px;
+    opacity: 0;
+}

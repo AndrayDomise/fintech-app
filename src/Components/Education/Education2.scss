@@ -1,0 +1,45 @@
+.learnPage2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 375px;
+    height: 812px;
+    background-image: url(../../assets/Images/Learn2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: none;
+    margin: 0 auto;
+}
+
+.link-tiktok {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(72, 72, 74, 0.6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    width: 345px;
+    height: 61px;
+    margin: 531px 15px 0px 15px;
+    border-radius: 8px;
+    opacity: 0;
+}
+
+.link-tiktok2{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(72, 72, 74, 0.6);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 200;
+    width: 345px;
+    height: 61px;
+    margin: 14px 15px 94px 15px;
+    border-radius: 8px;
+    opacity: 0;
+}

@@ -1,0 +1,87 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ol, ul, li, header, nav, main, section, blockquote, figcaption, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html {
+    // font-size: 16px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    // font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+}
+
+ul{list-style-type: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.background-image{
+    height: 728px;
+    width: 100%;
+    padding-left: -16px;
+    padding-right: -16px;
+}
+
+// @mixin mobile{
+//     @media screen and (width: 767px){
+//         @content;
+//     }
+// }
+
+.container {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.container-fluid {
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -16px;
+    margin-left: -16px;
+}
+
+// .column{
+//     padding-right: 24px;
+// }
+
+// .column:last-of-type{
+//     padding-right: 0px;
+// }
+
+.col-sm-1{
+    max-width: 184px;
+}
+
+.col-sm-2{
+    max-width: 368px;
+}
+
+.col-sm-3{
+    max-width: 552px;
+}
+
+.col-sm-4{
+    max-width: 736px;
+}

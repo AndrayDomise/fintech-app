@@ -1,0 +1,28 @@
+.tiktokPage{
+    display:flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 375px;
+        height: 812px;
+        background-image: url(../../assets/Images/TikTok2.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: none;
+        margin: 0 auto;
+}
+
+.tiktokCancel {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EE6C4D;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    width: 30px;
+    height: 30px;
+    margin: 0px 0px 729px 314px;
+    border-radius: 8px;
+    opacity: 0;
+}

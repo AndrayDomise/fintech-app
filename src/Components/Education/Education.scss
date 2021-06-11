@@ -1,0 +1,28 @@
+.learnPage{
+        display:flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 375px;
+        height: 812px;
+        background-image: url(../../assets/Images/Learn1.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: none;
+        margin: 0 auto;
+}
+
+.learn2-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EE6C4D;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    width: 149px;
+    height: 119px;
+    margin: 251px 198px 136px 28px;
+    border-radius: 8px;
+    opacity: 0;
+}
